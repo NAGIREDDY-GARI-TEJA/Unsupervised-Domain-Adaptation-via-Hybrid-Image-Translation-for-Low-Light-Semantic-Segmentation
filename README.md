@@ -16,13 +16,9 @@ This project addresses the challenge of semantic segmentation in low-light condi
 
 Unsupervised-Domain-Adaptation-via-Hybrid-Image-Translation-for-Low-Light-Semantic-Segmentation/
 ├── data/
-
 │ ├── night/ # Raw nighttime images
-
 │ ├── day/ # Raw daytime images
-
 │ └── enhanced/ # Enhanced night-to-day images
-
 ├── models/
 │ ├── unet.py
 │ ├── maunet.py
