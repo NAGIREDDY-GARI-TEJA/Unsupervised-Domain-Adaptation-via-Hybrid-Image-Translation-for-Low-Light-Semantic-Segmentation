@@ -14,11 +14,32 @@ This project addresses the challenge of semantic segmentation in low-light condi
 
 ## 📁 Project Structure
 
-```text Unsupervised-Domain-Adaptation-via-Hybrid-Image-Translation-for-Low-Light-Semantic-Segmentation/ ├── data/ │ ├── night/ # Raw nighttime images │ ├── day/ # Raw daytime images │ └── enhanced/ # Enhanced night-to-day images ├── models/ │ ├── unet.py │ ├── maunet.py │ ├── resnet_segmenter.py │ └── cycle_gan/ # CycleGAN implementation ├── notebooks/ │ ├── preprocessing.ipynb │ ├── training_segmentation.ipynb │ └── eval.ipynb ├── utils/ │ ├── enhancement.py # Enhancement functions │ └── dataloader.py ├── checkpoints/ # Trained model weights and logs ├── results/ │ └── qualitative/ # Visual outputs of segmentation ├── requirements.txt └── README.md ```
+```
 
+Unsupervised-Domain-Adaptation-via-Hybrid-Image-Translation-for-Low-Light-Semantic-Segmentation/
+├── data/
+│   ├── night/               # Raw nighttime images
+│   ├── day/                 # Raw daytime images
+│   └── enhanced/            # Enhanced night-to-day images
+├── models/
+│   ├── unet.py
+│   ├── maunet.py
+│   ├── resnet_segmenter.py
+│   └── cycle_gan/           # CycleGAN implementation
+├── notebooks/
+│   ├── preprocessing.ipynb
+│   ├── training_segmentation.ipynb
+│   └── eval.ipynb
+├── utils/
+│   ├── enhancement.py       # Enhancement functions
+│   └── dataloader.py
+├── checkpoints/             # Trained model weights and logs
+├── results/
+│   └── qualitative/         # Visual outputs of segmentation
+├── requirements.txt
+└── README.md
+```
 
-
----
 
 ## 🔧 Pipeline
 
