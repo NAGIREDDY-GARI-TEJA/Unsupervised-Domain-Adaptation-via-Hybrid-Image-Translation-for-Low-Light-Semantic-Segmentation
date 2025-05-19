@@ -1,5 +1,8 @@
 # Unsupervised Domain Adaptation via Hybrid Image Translation for Low-Light Semantic Segmentation
 
+🚧 **Confidential Research Project** — Code not publicly available. This repository is for showcasing methodology and results only.
+
+
 This project addresses the challenge of semantic segmentation in low-light conditions for autonomous driving using unsupervised domain adaptation. We combine state-of-the-art segmentation networks (UNet, MA-UNet, and DeepLab V3 models) with CycleGAN-based image translation and image enhancement techniques to effectively translate and adapt nighttime driving scenes to daytime conditions before feeding them to semantic segmentation models.
 
 ---
@@ -96,6 +99,9 @@ Unsupervised-Domain-Adaptation-via-Hybrid-Image-Translation-for-Low-Light-Semant
 
     ```bash
     python inference.py --model unet --input data/enhanced_translated
+
+The Project is confidencial so no codes are provided.
+
 
 Results
 
