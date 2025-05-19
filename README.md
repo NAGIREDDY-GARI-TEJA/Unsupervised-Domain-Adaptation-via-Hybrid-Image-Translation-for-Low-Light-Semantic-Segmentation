@@ -100,7 +100,7 @@ Unsupervised-Domain-Adaptation-via-Hybrid-Image-Translation-for-Low-Light-Semant
     ```bash
     python inference.py --model unet --input data/enhanced_translated
 
-The Project is confidencial so no codes are provided.
+
 
 
 Results
